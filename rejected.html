@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rejected page</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <style>
+        * {
+            font-family: "Geist", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-base-200">
+    <section class="w-11/12 mx-auto">
+
+
+        <header>
+            <h1 class=" text-[#002C5C] font-extrabold pt-4">Job Application Tracker</h1>
+
+            <div class="my-5 grid grid-cols-3 gap-3">
+                <div class="card bg-base-100  card-xs shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="card-title font-bold text-[#323B49]">Total</h2>
+                        <p class="text-[#002C5C]">8</p>
+                    </div>
+                </div>
+                <div class="card  bg-base-100 card-xs shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="card-title font-bold text-[#323B49]">Interview</h2>
+                        <p class="text-[#10B981]"> 0</p>
+                    </div>
+                </div>
+                <div class="card  bg-base-100 card-xs shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="card-title font-bold text-[#323B49]">Rejected</h2>
+                        <p class="text-[#EF4444]">0</p>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <hr>
+
+        <main class="pt-5">
+            <div class="flex justify-between">
+                <h1>Available Jobs</h1>
+                <p>0 jobs</p>
+            </div>
+
+            <div class="flex gap-3 mt-5 ">
+
+                <a href="index.html"> <button class="btn btn-soft   ">ALL</button></a>
+                <a href="interview.html"> <button class="btn btn-soft ">Interview</button> </a>
+                <button class="btn btn-soft ">Rejected</button>
+            </div>
+
+
+            <div class="mt-5">
+                <div class="card  bg-white h-[400px] ">
+                    <div class="card-body flex justify-center items-center mt-20  ">
+
+                        <div> <img src="image/jobs.png" alt=""></div>
+                        <h3 class="text-base font-bold text-slate-900">
+                            No jobs available
+                        </h3>
+
+                        <p class="text-xs text-slate-500 mt-1">
+                            Check back soon for new job opportunities
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+    </section>
+
+</body>
+
+</html>
