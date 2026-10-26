@@ -1,12 +1,12 @@
-const interviewBtn = document.querySelectorAll("#rejected-btn");
+const rejectedBtn = document.querySelectorAll("#rejected-btn");
 
-interviewBtn.forEach(function (btn) {
+rejectedBtn.forEach(function (btn) {
     btn.addEventListener("click", function () {
 
         const totalOffers = document.querySelectorAll("#available-jobs");
 
-        const interviewCount = document.getElementById("rejected-count");
-        const counts = Number(interviewCount.innerText);
+        const rejectedCount = document.getElementById("rejected-count");
+        const counts = Number(rejectedCount.innerText);
 
         if (counts < 8) {
             totalOffers.forEach(function (offer) {
@@ -17,7 +17,7 @@ interviewBtn.forEach(function (btn) {
                 }
             });
 
-            interviewCount.innerText = counts + 1;
+            rejectedCount.innerText = counts + 1;
         }
     });
 });
